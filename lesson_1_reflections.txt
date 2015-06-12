@@ -1,0 +1,23 @@
+- Diffing on Windows via fc, on Linux and Mac with diff command
+
+"How did viewing a diff between two versiobs of a file help you to see the bug that was introduced?"
+
+Since I knew that the older version didn't have the bug, I knew it had to be somewhere in the changed lines. It's handy that the diff tools show only the lines that have changed instead of the whole file.
+
+
+"How could having easy access to the entire history of a file make you a more efficient programmer?"
+
+I'm always able to restore any recent version of a file. That's useful if I want to go back to an older state of my code or to identify a bug.
+
+
+"What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?"
+
+An advantage of manually committing is that you can choose only to commit a working (compiling) version of your code and only after logical changes have happened instead of saving each and every change in the files with that change having no logical meaning.
+
+A disadvantage is that you have to remember doing the commits so that your work will be saved. If you forget and anything goes wrong, all the code or at least the changes are gone.
+
+
+"Why do you think some version control systems , like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?"
+
+Files often are related or logical linked to each other and you have to make changes in multiple files to implement a feature or fix a bug. It's much easier to overview all changes to files that belong together at once.
+
