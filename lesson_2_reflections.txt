@@ -1,0 +1,8 @@
+"What happens when you initialize a repository? Why do you need to do it?"
+
+When initializing a repository GIT stores a hidden folder named .git in my current directory. All Git info like commits and state are stored in this folder.
+
+"How is the staging area different from the working directorx and the repository? What value do you think it offers?"
+
+The staging area neither contains all current files I work on, neither does it contain previous versions of my files. It gives you the ability to choose which files from the working directory you want to add to the repository when committing.
+
