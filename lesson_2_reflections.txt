@@ -6,3 +6,7 @@ When initializing a repository GIT stores a hidden folder named .git in my curre
 
 The staging area neither contains all current files I work on, neither does it contain previous versions of my files. It gives you the ability to choose which files from the working directory you want to add to the repository when committing.
 
+"How can you use the staging area to make sure you have one commit per logical change?"
+
+When working on the files in the working directory, a lot of changes could add up. But by using the staging area, I can choose which of the changed files I want to include for the next commit, since committing means putting all changes (or the state of all files in the area) to the repository in form of a commit.
+
